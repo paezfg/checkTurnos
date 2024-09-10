@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital San Bernardo</title>
+    <link rel="shortcut icon" href="assets/makesense--iso.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="assets/makesense--iso.png" alt="MakeSense"></a>
+    </header>
+
+
+    <div class="container">
+        <h1>Chequeo de Disponibilidad de Turnos - Hospital San Bernardo</h1>
+        <form id="sanBernardoForm">
+            <!-- Especialidades a chequear-->
+
+        <div class="form-group">
+            <label for="cardioSB">Cardiología:</label>
+            <select id="cardioSB" name="cardioSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obscardioSB" name="obscardioSB" placeholder="Observaciones (opcional)">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="cabezaCuelloSB">Cabeza y Cuello:</label>
+            <select id="cabezaCuelloSB" name="cabezaCuelloSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obscabezaCuelloSB" name="obscabezaCuelloSB" placeholder="Observaciones (opcional)">
+        </div>
+
+              
+			  
+        <div class="form-group">
+            <label for="cirGralSB">Cirugía General:</label>
+            <select id="cirGralSB" name="cirGralSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obscirGralSB" name="obscirGralSB" placeholder="Observaciones (opcional)">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="citoSB">Citodiagnostico:</label>
+            <select id="citoSB" name="citoSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obscitoSB" name="obscitoSB" placeholder="Observaciones (opcional)">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="cliMedSB">Clinica Medica:</label>
+            <select id="cliMedSB" name="cliMedSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obscliMedSB" name="obscliMedSB" placeholder="Observaciones (opcional)">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="dermaSB">Dermatologia:</label>
+            <select id="dermaSB" name="dermaSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obsdermaSB" name="obsdermaSB" placeholder="Observaciones (opcional)">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="gastroSB">Gastroenterologia:</label>
+            <select id="gastroSB" name="gastroSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obsgastroSB" name="obsgastroSB" placeholder="Observaciones (opcional)">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="ginecoSB">Ginegologia:</label>
+            <select id="ginecoSB" name="ginecoSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obsginecoSB" name="obsginecoSB" placeholder="Observaciones (opcional)">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="nefroSB">Nefrologia:</label>
+            <select id="nefroSB" name="nefroSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obsnefroSB" name="obsnefroSB" placeholder="Observaciones (opcional)">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="neuroCirSB">Neurocirugia:</label>
+            <select id="neuroCirSB" name="neuroCirSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obsneuroCirSB" name="obsneuroCirSB" placeholder="Observaciones (opcional)">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="neuroSB">Neurologia:</label>
+            <select id="neuroSB" name="neuroSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obsneuroSB" name="obsneuroSB" placeholder="Observaciones (opcional)">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="oftaSB">Oftalmologia:</label>
+            <select id="oftaSB" name="oftaSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obsoftaSB" name="obsoftaSB" placeholder="Observaciones (opcional)">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="oncoSB">Oncologia:</label>
+            <select id="oncoSB" name="oncoSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obsoncoSB" name="obsoncoSB" placeholder="Observaciones (opcional)">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="orlSB">ORL:</label>
+            <select id="orlSB" name="orlSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obsorlSB" name="obsorlSB" placeholder="Observaciones (opcional)">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="patoMamariaSB">Patologia mamaria:</label>
+            <select id="patoMamariaSB" name="patoMamariaSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obspatoMamariaSB" name="obspatoMamariaSB" placeholder="Observaciones (opcional)">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="proctoSB">Proctologia:</label>
+            <select id="proctoSB" name="proctoSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obsproctoSB" name="obsproctoSB" placeholder="Observaciones (opcional)">
+        </div>
+
+
+
+
+        <div class="form-group">
+            <label for="quemadosSB">Quemados:</label>
+            <select id="quemadosSB" name="quemadosSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obsquemadosSB" name="obsquemadosSB" placeholder="Observaciones (opcional)">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="traumatoSB">Traumatologia:</label>
+            <select id="traumatoSB" name="traumatoSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obstraumatoSB" name="obstraumatoSB" placeholder="Observaciones (opcional)">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="uroginecoSB">Uroginecologia:</label>
+            <select id="uroginecoSB" name="uroginecoSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obsuroginecoSB" name="obsuroginecoSB" placeholder="Observaciones (opcional)">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="urologiaSB">Urologia:</label>
+            <select id="urologiaSB" name="urologiaSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obsurologiaSB" name="obsurologiaSB" placeholder="Observaciones (opcional)">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="vascularSB">Cirugia Vascular:</label>
+            <select id="vascularSB" name="vascularSB" required>
+                <option value="">Seleccione...</option>
+                <option value="SI">SI</option>
+                <option value="NO">NO</option>
+            </select>
+            <input type="text" id="obsvascularSB" name="obsvascularSB" placeholder="Observaciones (opcional)">
+        </div>
+
+                <!-- Nuevo campo de Fecha de habilitación -->
+                <input type="date" id="habilitacionSanBernardo" name="habilitacionSanBernardo">
+
+
+            <button type="submit" class="btn">Enviar Chequeo</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024. Make sense</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+

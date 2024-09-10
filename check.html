@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chequeo Actualizado</title>
+    <link rel="shortcut icon" href="/assets/makesense--iso.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <div class="notaOperador">
+        <i class="fas fa-exclamation-triangle"></i> <!-- Ícono de advertencia -->
+        <p><strong>Atención:</strong> Hospitales Arturo Oñativia, Joaquín Castellanos (Güemes) y Ntra. sra. del Rosario (Cafayate) se verifican SIEMPRE en llamada.</p>
+        <p>Para el resto de los hospitales, si es fecha de habilitación se debe verificar en llamada por todos los servicios.</p>
+    </div>
+
+        <!-- Buscador de servicios -->
+        <div class="search-container">
+            <i class="fas fa-search"></i> <!-- Ícono de lupa -->
+            <input type="text" id="searchInput" placeholder="Buscar servicio...">
+        </div>
+        
+
+    <!-- Tabla para San Bernardo -->
+     <h2>Hospital San Bernardo</h2>
+    <p id="sanBernardoTimestamp">Última actualización: N/A</p>
+    <p id="sanBernardoHabilitacion">Fecha de habilitación: N/A</p>
+    <table id="sanBernardoTable">
+    
+        <thead>
+            <tr>
+                <th>Servicio</th>
+                <th>Disponibilidad</th>
+                <th>Observaciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Las filas se generarán dinámicamente -->
+        </tbody>
+    </table>
+   
+    <p id="sanBernardoNoResult" style="display: none;">En el Hospital San Bernardo no brindamos turnos para el servicio buscado.</p>
+    
+    <hr>
+
+    <!-- Tabla para Papa Francisco -->
+     <h2>Hospital Papa Francisco</h2>
+    <p id="papaFranciscoTimestamp">Última actualización: N/A</p>
+    <p id="papaFranciscoHabilitacion">Fecha de habilitación: N/A</p>
+
+    <table id="papaFranciscoTable">
+        <thead>
+            <tr>
+                <th>Servicio</th>
+                <th>Disponibilidad</th>
+                <th>Observaciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Las filas se generarán dinámicamente -->
+        </tbody>
+    </table>
+
+    <p id="papaFranciscoNoResult" style="display: none;">En el Hospital Papa Francisco no brindamos turnos para el servicio buscado</p>
+    
+    <hr>
+
+    <!-- Tabla para Milagro -->
+     <h2>Hospital Señor del Milagro</h2>
+     <p id="milagroTimestamp">Última actualización: N/A</p>
+     <p id="milagroHabilitacion">Fecha de habilitación: N/A</p>
+
+     <table id="milagroTable">
+        <thead>
+            <tr>
+                <th>Servicio</th>
+                <th>Disponibilidad</th>
+                <th>Observaciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Las filas se generarán dinámicamente -->
+        </tbody>
+    </table>
+
+    <p id="milagroNoResult" style="display: none;">En el Hospital Señor del Milagro no brindamos turnos para el servicio buscado</p>
+    
+    <footer>
+        <p>&copy; 2024. Make Sense</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
